@@ -2,7 +2,7 @@ from src.models.pedido import Pedido
 
 class PedidoService:
     """Classe de serviço para processar pedidos e aplicar descontos."""
-
+ #Comentando, acabei subindo a camada de serviço junto com a separação
     def __init__(self):
         self.pedidos = []
 
